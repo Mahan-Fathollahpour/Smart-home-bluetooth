@@ -25,7 +25,7 @@ DallasTemperature sensors(&oneWire);
  
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Software Serial~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
 
-SoftwareSerial myserial(RX,TXB80);    /*(RX|TX)*/
+SoftwareSerial myserial(RX,TX);    /*(RX|TX)*/
 
 int state ;
 void setup() {
